@@ -9,9 +9,9 @@ The chosen architecture for this assignment is a dual aplication that shares a s
 
 ###In summary:
 
-  1.First application: Read and count words;
-  2.Second application: Process searches, handle API and front-end serving;
-  3.Front-end: Handles sorting;
+  1. First application: Read and count words;
+  2. Second application: Process searches, handle API and front-end serving;
+  3. Front-end: Handles sorting;
 
 ###Main Decisions:
 
@@ -22,17 +22,17 @@ The second split is not so obvious but it keeps a lot of the processing load off
 
 ##Tasks
 
-Setup - Configurar ambiente da aplicação 1(Reader). Sistema de testes.
-Setup - Configurar ambiente da aplicação 2(API + Front-end). Sistema de testes.
-Reader - Definir funcionamento(paralelismo + escalabilidade).
-Reader - Definir Tasks + Tasks de teste Testes.
-API - Definir funcionamento(escalabilidade).
-API - Definir Model Word + validações.
-API - Definir Model Word - Teste.
-API - Endpoint de busca - Teste.
-API - Endpoint de busca - Implementação.
-API - Endpoint de escrita - Teste.
-API - Endpoint de escrita - Implementação.
-Front-end - Definir um layout simples.
-Front-end - Definir os métodos para comunicar com a API - Teste.
-Front-end - Definir os métodos para comunicar com a API - Implementação.
+* Setup - Configurar ambiente da aplicação 1(Reader). Sistema de testes.
+* Setup - Configurar ambiente da aplicação 2(API + Front-end). Sistema de testes.
+* Reader - Definir funcionamento(paralelismo + escalabilidade).
+* Reader - Definir Tasks + Tasks de teste Testes.
+* API - Definir funcionamento(escalabilidade).
+* API - Definir Model Word + validações.
+* API - Definir Model Word - Teste.
+* API - Endpoint de busca - Teste.
+* API - Endpoint de busca - Implementação.
+* API - Endpoint de escrita - Teste.
+* API - Endpoint de escrita - Implementação.
+* Front-end - Definir um layout simples.
+* Front-end - Definir os métodos para comunicar com a API - Teste.
+* Front-end - Definir os métodos para comunicar com a API - Implementação.
