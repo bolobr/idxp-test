@@ -38,9 +38,6 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * Reader - Escalonador - Teste.
 * Reader - Escalonador - Implementação.
 * Reader - Escalonador - Doc.
-* Reader - Agregador - Teste.
-* Reader - Agregador - Implementação.
-* Reader - Agregador - Doc.
 * API - Definir funcionamento(escalabilidade).
 * API - Definir Model Word - Teste.
 * API - Definir Model Word - Implementação.
