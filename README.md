@@ -26,13 +26,32 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * Setup - Configurar ambiente da aplicação 2(API + Front-end). Sistema de testes.
 * Reader - Definir funcionamento(paralelismo + escalabilidade).
 * Reader - Definir Tasks + Tasks de teste Testes.
+* Reader - Detector de arquivos - Teste.
+* Reader - Detector de arquivos - Implementação.
+* Reader - Detector de arquivos - Doc.
+* Reader - Interface de comunicação com a API - Teste.
+* Reader - Interface de comunicação com a API - Implementação.
+* Reader - Interface de comunicação com a API - Doc.
+* Reader - Processador por arquivo - Teste.
+* Reader - Processador por arquivo - Implementação.
+* Reader - Processador por arquivo - Doc.
+* Reader - Escalonador - Teste.
+* Reader - Escalonador - Implementação.
+* Reader - Escalonador - Doc.
+* Reader - Agregador - Teste.
+* Reader - Agregador - Implementação.
+* Reader - Agregador - Doc.
 * API - Definir funcionamento(escalabilidade).
-* API - Definir Model Word + validações.
 * API - Definir Model Word - Teste.
+* API - Definir Model Word - Implementação.
+* API - Definir Model Word - Doc.
 * API - Endpoint de busca - Teste.
 * API - Endpoint de busca - Implementação.
+* API - Endpoint de busca - Doc.
 * API - Endpoint de escrita - Teste.
 * API - Endpoint de escrita - Implementação.
+* API - Endpoint de escrita - Doc.
 * Front-end - Definir um layout simples.
 * Front-end - Definir os métodos para comunicar com a API - Teste.
 * Front-end - Definir os métodos para comunicar com a API - Implementação.
+* Front-end - Definir os métodos para comunicar com a API - Doc.
