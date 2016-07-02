@@ -1,0 +1,14 @@
+task default: %w[display_options]
+
+task :display_options do
+  puts "Rake is used for testing in this application, please execute 'rake display_tests' for a list of available tests or 'rake test' if you want to execute them all."
+end
+
+task :display_tests do
+end
+
+task :test do
+  Dir["test/**/*.rb"].each do |test_file|
+    ruby test_file
+  end
+end

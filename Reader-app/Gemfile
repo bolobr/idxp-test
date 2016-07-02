@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+#Task automation
+gem 'rake'
+
+#Background Process and Multiple Thread
+gem 'sidekiq'
+
+gem 'minitest'
