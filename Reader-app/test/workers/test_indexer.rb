@@ -1,4 +1,4 @@
-require File.expand_path("source/workers/indexer.rb") 
+require File.expand_path("source/workers/indexer.rb")
 require 'minitest/autorun'
 describe Indexer do
   before do
@@ -10,7 +10,7 @@ describe Indexer do
       skip("Pending")
     end
 
-    it "should try to upload the info to the Database" do
+    it "should upload the info to the database" do
       skip("Pending")
     end
   end

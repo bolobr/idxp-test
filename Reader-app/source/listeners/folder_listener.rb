@@ -1,2 +1,0 @@
-class FolderListener
-end
