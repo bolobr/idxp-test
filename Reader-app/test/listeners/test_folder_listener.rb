@@ -9,6 +9,7 @@ describe FolderListenerCallback do
 
   describe "When there is a new file" do
     it "should create a new async job for processing" do
+      ##Test will simply fail if anything is out of order
       assert_equal TRUE, @listener.call_job("application_storage/processing_files/teste2.txt")
     end
 
