@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
 #Task automation
-gem 'rake'
+gem 'rake', '~> 11.2'
+
+#Test
+gem 'minitest', '~> 5.9'
 
 #Background Process and Multiple Thread
-gem 'sidekiq'
+gem 'sidekiq', '~> 4.1'
 
-gem 'minitest'
+#Folder listener
+gem 'listen', '~> 3.0'
