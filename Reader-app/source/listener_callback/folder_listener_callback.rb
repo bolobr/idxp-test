@@ -1,5 +1,7 @@
 require 'fileutils'
 require 'pathname'
+require File.expand_path("source/workers/indexer.rb")
+require 'resque'
 class FolderListenerCallback
   def initialize
 
@@ -11,7 +13,7 @@ class FolderListenerCallback
   end
 
   def call_job(file_path)
-
+    job = Resque.enqueue(Indexer, file_path)
   end
 
   def move_file(file_path)

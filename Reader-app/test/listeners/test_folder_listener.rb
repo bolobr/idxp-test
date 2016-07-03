@@ -3,21 +3,17 @@ require 'minitest/autorun'
 describe FolderListenerCallback do
   before do
     @listener = FolderListenerCallback.new
+    File.open("application_storage/new_files/teste.txt", "w") {|f| f.write("teste") }
+    File.open("application_storage/processing_files/teste2.txt", "w") {|f| f.write("teste") }
   end
 
   describe "When there is a new file" do
     it "should create a new async job for processing" do
-      mock = Minitest::Mock.new
-      mock.expect :call
-      obj = FolderListener.new
-      obj.stub :perform, mock do
-        obj.invoke_function("perform")
-      end
-      mock.verify
+      assert_equal TRUE, @listener.call_job("application_storage/processing_files/teste2.txt")
     end
 
     it "should move file to processing folder" do
-      skip("Pending")
+      assert_equal "application_storage/processing_files/teste.txt", @listener.move_file("application_storage/new_files/teste.txt")
     end
   end
 end
