@@ -17,7 +17,10 @@ describe Indexer do
 
     it "should upload the info to the database" do
       a = {status: 200, msg: "File teste4.txt created"}
-      assert_equal(a), @worker.upload_results 
+      data = {}
+      data["teste"] = 3
+      file_name = "teste4.txt"
+      assert_equal (a), @worker.upload_results(file_name, data) 
     end
 
     it "should move processed files to old files" do
