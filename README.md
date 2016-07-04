@@ -23,14 +23,14 @@ The second split is not so obvious but it keeps a lot of the processing load off
 ##Tasks
 
 * ~~ Setup - Configurar ambiente da aplicação 1(Reader). Sistema de testes. ~~
-* Setup - Configurar ambiente da aplicação 2(API + Front-end). Sistema de testes.
+* ~~ Setup - Configurar ambiente da aplicação 2(API + Front-end). Sistema de testes. ~~
 * ~~ Reader - Definir funcionamento(paralelismo + escalabilidade). ~~
 * ~~ Reader - Definir Tasks + Tasks de teste Testes. ~~
 * ~~ Reader - Detector de arquivos - Teste. ~~
 * ~~ Reader - Detector de arquivos - Implementação. ~~
 * Reader - Detector de arquivos - Doc.
 * ~~ Reader - Interface de comunicação com a API - Teste. ~~
-* Reader - Interface de comunicação com a API - Implementação.
+* ~~ Reader - Interface de comunicação com a API - Implementação. ~~
 * Reader - Interface de comunicação com a API - Doc.
 * ~~ Reader - Processador por arquivo - Teste. ~~
 * ~~ Reader - Processador por arquivo - Implementação. ~~
