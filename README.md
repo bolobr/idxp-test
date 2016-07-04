@@ -39,11 +39,11 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * ~~ Reader - Escalonador - Implementação. ~~
 * Reader - Escalonador - Doc.
 * API - Definir funcionamento(escalabilidade).
-* API - Definir Model Word - Teste.
-* API - Definir Model Word - Implementação.
+* ~~ API - Definir Model Word - Teste. ~~
+* ~~ API - Definir Model Word - Implementação. ~~
 * API - Definir Model Word - Doc.
-* API - Definir Model Files - Teste.
-* API - Definir Model Files - Implementação.
+* ~~ API - Definir Model Files - Teste. ~~
+* ~~ API - Definir Model Files - Implementação. ~~
 * API - Definir Model Files - Doc.
 * API - Endpoint de busca - Teste.
 * API - Endpoint de busca - Implementação.
