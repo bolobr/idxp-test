@@ -45,7 +45,7 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * ~~ API - Definir Model Files - Teste. ~~
 * ~~ API - Definir Model Files - Implementação. ~~
 * API - Definir Model Files - Doc.
-* ~~ API - Endpoint de busca - Teste. ~~
+*  ~~API - Endpoint de busca - Teste.~~
 * ~~ API - Endpoint de busca - Implementação. ~~
 * API - Endpoint de busca - Doc.
 * ~~ API - Endpoint de escrita - Teste. ~~
