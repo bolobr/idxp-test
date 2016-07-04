@@ -5,6 +5,6 @@ class Term
 
   def self.find_all_files(term)
     a = Term.where(name: term)[0]
-    return a.processed_files.to_json(:only => [:file_name, :word_count])
+    return a.processed_files
   end
 end
