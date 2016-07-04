@@ -1,6 +1,6 @@
-<div class="search_div" >
-  {{input placeholder="Faça sua busca" value=search_box }}
-</div>
+<form class="search_div" {{action "search" on="submit"}}>
+  {{input placeholder="Faça sua busca" value=search_box  }}
+</form>
 <div class="result_box">
   {{file-list file_list=model}}
 </div>
