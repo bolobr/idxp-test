@@ -28,9 +28,13 @@ class Indexer
   def upload_results(file_name, file_info)
     uri = URI.parse("http://localhost:3000/api/v1/receive_data.json")
     https = Net::HTTP.new(uri.host, uri.port)
+    data = {
+      file_name: file_name,
+      file_info: file_info
+    }
 
     request = Net::HTTP::Post.new(uri.path)
-    request.set_form_data(file_info)
+    request.set_form_data(data)
     response = https.request(request)
     ##Faking the results while the API is not ready
     res = {status: 200, msg: "File teste4.txt created"}
