@@ -29,7 +29,7 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * ~~ Reader - Detector de arquivos - Teste. ~~
 * ~~ Reader - Detector de arquivos - Implementação. ~~
 * Reader - Detector de arquivos - Doc.
-* Reader - Interface de comunicação com a API - Teste.
+* ~~ Reader - Interface de comunicação com a API - Teste. ~~
 * Reader - Interface de comunicação com a API - Implementação.
 * Reader - Interface de comunicação com a API - Doc.
 * ~~ Reader - Processador por arquivo - Teste. ~~
