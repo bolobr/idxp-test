@@ -54,5 +54,5 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * ~~ Front-end - Setup do ambiente de aplicação. ~~
 * ~~ Front-end - Definir um layout simples. ~~
 * Front-end - Definir os métodos para comunicar com a API - Teste.
-* Front-end - Definir os métodos para comunicar com a API - Implementação.
+* ~~ Front-end - Definir os métodos para comunicar com a API - Implementação. ~~
 * Front-end - Definir os métodos para comunicar com a API - Doc.
