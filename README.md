@@ -5,12 +5,12 @@ The main assumption for this assignment is that is some sort of a WEB system. Th
 
 ##Architecture
 
-The chosen architecture for this assignment is a dual aplication that shares a small database. The first one is responsible for reading the files and counting the words. The other one is responsible mainly for processing the search in the database. Now, for this project, i will use a simple web front-end, this approach let me relay the sorting to the front-end. To keep this project simple the second application will also handle the front-end serving and small API that receives info from the first application.
+The chosen architecture for this assignment is three aplication that shares a small database. The first one is responsible for reading the files and counting the words. The other one is responsible mainly for processing the search in the database. Now, for this project, i will use a simple web front-end, this approach let me relay the sorting to the front-end.
 
 ###In summary:
 
   1. First application: Read and count words;
-  2. Second application: Process searches, handle API and front-end serving;
+  2. Second application: Process searches, handle API;
   3. Front-end: Handles sorting;
 
 ###Main Decisions:
@@ -45,13 +45,14 @@ The second split is not so obvious but it keeps a lot of the processing load off
 * ~~ API - Definir Model Files - Teste. ~~
 * ~~ API - Definir Model Files - Implementação. ~~
 * API - Definir Model Files - Doc.
-* API - Endpoint de busca - Teste.
-* API - Endpoint de busca - Implementação.
+* ~~ API - Endpoint de busca - Teste. ~~
+* ~~ API - Endpoint de busca - Implementação. ~~
 * API - Endpoint de busca - Doc.
-* API - Endpoint de escrita - Teste.
-* API - Endpoint de escrita - Implementação.
+* ~~ API - Endpoint de escrita - Teste. ~~
+* ~~ API - Endpoint de escrita - Implementação. ~~
 * API - Endpoint de escrita - Doc.
-* Front-end - Definir um layout simples.
+* ~~ Front-end - Setup do ambiente de aplicação. ~~
+* ~~ Front-end - Definir um layout simples. ~~
 * Front-end - Definir os métodos para comunicar com a API - Teste.
 * Front-end - Definir os métodos para comunicar com a API - Implementação.
 * Front-end - Definir os métodos para comunicar com a API - Doc.
