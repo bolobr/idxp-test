@@ -1,5 +1,8 @@
 <form class="search_div" {{action "search" on="submit"}}>
-  {{input placeholder="Faça sua busca" value=search_box  }}
+  {{input placeholder="Faça sua busca" value=search_box}}
+  <button {{action "search"}}>
+    Buscar
+  </button>
 </form>
 <div class="result_box">
   {{file-list file_list=model}}
