@@ -5,7 +5,7 @@ The main assumption for this assignment is that is some sort of a WEB system. Th
 
 ##Architecture
 
-The chosen architecture for this assignment is three aplication that shares a small database. The first one is responsible for reading the files and counting the words. The other one is responsible mainly for processing the search in the database. Now, for this project, i will use a simple web front-end, this approach let me relay the sorting to the front-end.
+The chosen architecture for this assignment is three aplication that shares a small database. The first one is responsible for reading the files and counting the words. The second is responsible mainly for processing the search in the database. And the third one will be the frontend. Now, for this project, i will use a simple web front-end, this approach let me relay the sorting to the front-end.
 
 ###In summary:
 
@@ -18,6 +18,89 @@ The chosen architecture for this assignment is three aplication that shares a sm
 The main advantage of this approach is dividing the main process of the whole problem. The first split is obvious, keeping these two tasks is one of the main components of keeping independent parts in the whole system.
 
 The second split is not so obvious but it keeps a lot of the processing load off the servers. Relaying the sorting to the front-end is a easy way out, since the front-end may use the user processor to make simple and fast sorting. Even if the amount of results is huge, it could use a pagination idea and sort by steps in a lazy fashion. As the test in this application are not insanely huge, this will not be implemented though.
+
+##Installing and Running locally
+
+###Pre-requisites
+
+* ruby 2.3.1
+* rails 4.2.5
+* mongodb
+* redis
+* sidekiq
+* Ember 2.6 (npm is recommended)
+
+
+
+###Reader-app
+
+On Reader-app root:
+
+* Setting up:
+
+`$> bundle install`
+
+* Starting up:
+
+Start your redis service
+
+then start a worker with
+
+`$Reader-app> sidekiq ./source/workers/indexer.rb`
+
+and finally:
+
+`$Reader-app> ruby start_listener.rb`
+
+
+###Backend-app
+
+On Backend-app root:
+
+* Setting up
+
+`$Backend-app> bundle install`
+
+* Starting up:
+
+on
+
+`$Backend-app> rails s`
+###Frontend-app
+
+On Frontend-app root:
+
+* Setting up
+
+`$Frontend-app> npm install`
+
+* Starting up
+
+`$Frontend-app> ember server`
+
+
+
+ember server
+
+### How to read files
+
+Apenas coloque os arquivos de teste dentro da pasta application_storage/new_files
+
+### How to search for terms
+
+localhost:4200/search and type a word inside the input box
+
+##Deployment
+
+This application was designed so it could scale and be deployed in multiple machines. Idealistically, a few more features have to be implemented so it has the best behaviour.
+
+A few points will be discussed right here on how to setup the whole application for scaling.
+
+1.  Reader-app
+
+The Reader-app was developed using Sidekiq scheduler, wich relies on redis as its messaging broker. It also has an internal file structure. This decision was made due to its simplicity, although changing it may not be as easy.
+
+
 
 
 ##Tasks
