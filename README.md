@@ -146,10 +146,10 @@ Testing requires that all the backend application is running. Preferably, the en
 * ~~API - Definir Model Files - Teste.~~
 * ~~API - Definir Model Files - Implementação.~~
 * ~~API - Definir Model Files - Doc.~~
-* ~~API - Endpoint de busca - Teste.~~
+* API - Endpoint de busca - Teste.
 * ~~API - Endpoint de busca - Implementação.~~
 * ~~API - Endpoint de busca - Doc.~~
-* ~~API - Endpoint de escrita - Teste.~~
+* API - Endpoint de escrita - Teste.
 * ~~API - Endpoint de escrita - Implementação.~~
 * ~~API - Endpoint de escrita - Doc.~~
 * ~~Front-end - Setup do ambiente de aplicação.~~
