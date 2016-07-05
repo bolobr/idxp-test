@@ -24,6 +24,7 @@ The chosen architecture for this assignment is three application that shares a s
 * redis
 * sidekiq
 * Ember 2.6 (npm is recommended)
+* Bower
 
 
 
@@ -66,6 +67,8 @@ On Frontend-app root:
 * Setting up
 
 `$Frontend-app> npm install`
+
+`$Frontend-app> bower install`
 
 * Starting up
 
